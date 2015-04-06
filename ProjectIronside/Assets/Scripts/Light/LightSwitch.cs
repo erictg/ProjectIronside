@@ -12,9 +12,10 @@ public class LightSwitch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyUp(KeyCode.Space))
-		{
-			myLight.enabled = !myLight.enabled;
-		}
+
+	}
+
+	void OnMouseDown(){
+		myLight.enabled = !myLight.enabled;
 	}
 }
